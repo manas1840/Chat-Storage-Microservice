@@ -139,6 +139,12 @@ Base path: `/api/v1`
 | `POST` | `/sessions/{id}/messages` | Add a message to a session |
 | `GET` | `/sessions/{id}/messages` | Get messages (paginated) |
 
+### Health Check
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/v1/health` | API Health check (public) |
+
 ### System
 
 | Method | Endpoint | Description |
